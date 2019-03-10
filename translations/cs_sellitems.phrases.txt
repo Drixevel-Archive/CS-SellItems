@@ -1,0 +1,45 @@
+﻿"Phrases"
+{
+	"sell advert on item buy"
+	{
+		"en"		"You can sell your items or items you pickup by typing {green}sell {default}into chat with the item equipped."
+	}
+	
+	"must be in buyzone"
+	{
+		"en"		"You must be in a buyzone to sell items."
+	}
+	
+	"no item found"
+	{
+		"en"		"You currently don't have an item equipped to sell."
+	}
+	
+	"not allowed to sell"
+	{
+		"en"		"We cannot accept foreign items, only items belonging to you."
+	}
+	
+	"no price"
+	{
+		"en"		"This item isn't worth anything."
+	}
+	
+	"your item sold"
+	{
+		"#format"	"{1:s},{2:d},{3:d}"
+		"en"		"You have successfully sold your {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}."
+	}
+	
+	"this item sold"
+	{
+		"#format"	"{1:s},{2:d},{3:d}"
+		"en"		"You have successfully sold this {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}."
+	}
+	
+	"error removing item"
+	{
+		"#format"	"{1:s}"
+		"en"		"Error selling item {green}{1}{default}."
+	}
+}
