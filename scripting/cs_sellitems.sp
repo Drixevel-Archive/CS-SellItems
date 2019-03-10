@@ -4,7 +4,7 @@
 
 //Defines
 #define PLUGIN_DESCRIPTION "Sell items you purchase or pickup in the game for a refund."
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.1"
 
 #define PLUGIN_TAG "{green}[Sell]{default}"
 
@@ -179,10 +179,10 @@ public void OnEntityCreated(int entity, const char[] name)
 public void OnItemSpawnPost(int entity)
 {
 	//I have no idea why we need a 0.1 second delay even though SpawnPost should be plenty of time.
-	CreateTimer(0.1, Timer_Delay, EntIndexToEntRef(entity));
+	RequestFrame(Frame_Delay, EntIndexToEntRef(entity));
 }
 
-public Action Timer_Delay(Handle plugin, any entref)
+public void Frame_Delay(any entref)
 {
 	//Turn the reference back into an index and see if it's valid and if it is, cache the owner.
 	int entity = -1;
