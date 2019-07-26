@@ -828,7 +828,7 @@ stock bool IsPlayerStuck(int client)
 
 public bool TraceEntityFilterPlayer(int entity, int contentsMask, any data)
 {
-	return entity > GetMaxClients() || !entity;
+	return entity > MaxClients || !entity;
 }
 
 public bool TraceEntityFilterNone(int entity, int contentsMask, any data)
