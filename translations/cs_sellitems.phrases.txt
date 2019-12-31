@@ -2,44 +2,52 @@
 {
 	"sell advert on item buy"
 	{
-		"en"		"You can sell your items or items you pickup by typing {green}sell {default}into chat with the item equipped."
+		"en"		"You can sell your items or items you pickup by typing {green}sell {default}into chat with the item equipped.",
+		"gr"		"Μπορείτε να πουλήσετε αντικείμενά σας ή αντικείμενα που σηκώνετε πληκτρολογώντας {green}sell {default}στο chat με το αντικείμενο που έχετε εξοπλιστεί."
 	}
 	
 	"must be in buyzone"
 	{
-		"en"		"You must be in a buyzone to sell items."
+		"en"		"You must be in a buyzone to sell items.",
+		"gr"		"Πρέπει να βρίσκεστε στη ζώνη αγοράς για να πουλήσετε αντικείμενα."
 	}
 	
 	"no item found"
 	{
-		"en"		"You currently don't have an item equipped to sell."
+		"en"		"You currently don't have an item equipped to sell.",
+		"gr"		"Επί του παρόντος δεν διαθέτετε αντικείμενο που να μπορεί να πωληθεί."
 	}
 	
 	"not allowed to sell"
 	{
-		"en"		"We cannot accept foreign items, only items belonging to you."
+		"en"		"We cannot accept foreign items, only items belonging to you.",
+		"gr"		"Δεν μπορούμε να δεχθούμε ξένα αντικείμενα, μόνο αντικείμενα που ανήκουν σε εσάς."
 	}
 	
 	"no price"
 	{
-		"en"		"This item isn't worth anything."
+		"en"		"This item isn't worth anything.",
+		"gr"		"Αυτό το αντικείμενο δεν αξίζει τίποτα."
 	}
 	
 	"your item sold"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"en"		"You have successfully sold your {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}."
+		"en"		"You have successfully sold your {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}.",
+		"gr"		"Πωλήσατε επιτυχώς το δικό σας {green}{1} {default}για {green}{2} {default}δολάρια από {green}{3}{default}."
 	}
 	
 	"this item sold"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"en"		"You have successfully sold this {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}."
+		"en"		"You have successfully sold this {green}{1} {default}for {green}{2} {default}dollars out of {green}{3}{default}.",
+		"gr"		"Πωλήσατε επιτυχώς αυτό το {green}{1} {default}για {green}{2} {default}δολάρια από {green}{3}{default}."
 	}
 	
 	"error removing item"
 	{
 		"#format"	"{1:s}"
-		"en"		"Error selling item {green}{1}{default}."
+		"en"		"Error selling item {green}{1}{default}.",
+		"gr"		"Σφάλμα πώλησης αντικειμένου {green}{1}{default}."
 	}
 }
